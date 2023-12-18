@@ -1,20 +1,25 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
 body{
     display:flex;
     flex-direction: column;
- 
-    
+    justify-content: space-between;
 }
 
 .header{
-    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
     align-content: center;
-
+    background-color: #1F2937;
 }
 
 .logo{
-    align-self: center
+    align-self: center;
+    font-size: 24px;
+    color:#F9FAF8
 }
 
 
@@ -28,13 +33,16 @@ ul{
 
 a{
     text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB
 }
 
 .intro{
     display:flex;
     justify-content: space-around;
     padding: 80px;
-    gap:12px
+    gap:12px;
+    background-color: #1F2937;
 }
 
 .intro-left{
@@ -44,13 +52,33 @@ a{
     padding-left: 90px;
 }
 
+.button-container{
+    display:flex;
+    flex-direction: row;
+    text-wrap: nowrap;
+}
+
+.intro-button{
+    border-radius: 10px;
+    width: 100px;
+    color: #E5E7EB;
+    font-weight: 800
+}
+
+button{
+    background-color: #3882F6;
+}
+
 .intro-content{
     text-wrap: wrap;
+    font-size:18px;
+    color:#E5E7EB
 }
 
 .intro-header{
     font-size: 48px;
     font-weight:900;
+    color:#F9FAF8
 }
 
 .intro-right{
@@ -59,6 +87,24 @@ a{
     width: 500px;
     align-self:center;
     height: 150px;
-    background-color: red;
+    background-color: gray;
     align-items: center;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    align-self: center;
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937;
+    padding: 20px
+}
+
+
+
+
+
