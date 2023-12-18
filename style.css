@@ -107,6 +107,7 @@ button{
 .illustrations-container{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 40px
 }
 
 .illustrations{
@@ -151,9 +152,15 @@ button{
 
 .quotee{
     align-self: flex-end;
-    font-size: 20px;
+    font-size: 25px;
     font: light;
-    
+    padding-right:40px
+}
+
+.banner-section{
+    display:flex;
+    flex-direction: column;
+    height: 300px
 }
 
 
