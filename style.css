@@ -104,7 +104,56 @@ button{
     padding: 20px
 }
 
+.illustrations-container{
+    display: flex;
+    justify-content: space-around;
+}
 
+.illustrations{
+    display: flex;
+    flex-direction: column;
+    width: 150px
+}
 
+.image-container{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 3px solid;
+    border-color: teal ;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.caption{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding-left: 10px;
+}
+
+.text-container{
+    font-size: 36px;
+    font: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee{
+    align-self: flex-end;
+    font-size: 20px;
+    font: light;
+    
+}
 
 
