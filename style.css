@@ -62,7 +62,8 @@ a{
     border-radius: 10px;
     width: 100px;
     color: #E5E7EB;
-    font-weight: 800
+    font-weight: 800;
+    border:none
 }
 
 button{
@@ -148,19 +149,69 @@ button{
     font: light;
     font-style: italic;
     color: #1F2937;
+    width: 700px
 }
 
 .quotee{
     align-self: flex-end;
     font-size: 25px;
     font: light;
-    padding-right:40px
+    padding-right:320px;
+    font-weight: 500;
 }
 
 .banner-section{
     display:flex;
     flex-direction: column;
-    height: 300px
+    height: 200px;
 }
 
+.banner{
+    display: flex;
+    width: fit-content;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    background-color: #3882F6;
+    height: 100px;
+    width: 700px;
+    gap: 40px
+}
 
+.banner-container{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+    color: #E5E7EB
+}
+
+.banner-top{
+    font-weight: 900;
+    font-size: 24px;
+}
+
+.banner-button{
+    border-radius: 8px;
+    border: solid white;
+    flex-grow: 0;
+    height: 30px;
+    width: 80px;
+    justify-self: center;
+    align-self: center;
+    color:#E5E7EB;
+    font-weight: 500;
+}
+
+.footer-text{
+    font-size: 18px;
+    color:#E5E7EB;
+    align-self: center;
+}
+
+.footer{
+    height: 50px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
