@@ -64,7 +64,8 @@ a{
     width: 100px;
     color: #E5E7EB;
     font-weight: 800;
-    border:none
+    border:none;
+    margin-top: 10px
 }
 
 button{
@@ -74,7 +75,8 @@ button{
 .intro-content{
     text-wrap: wrap;
     font-size:18px;
-    color:#E5E7EB
+    color:#E5E7EB;
+    margin-top: 5px
 }
 
 .intro-header{
